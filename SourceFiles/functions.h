@@ -1,0 +1,16 @@
+unsigned randomUns(unsigned, unsigned);
+unsigned randomNormalUns(unsigned, unsigned);
+std::string paddedString(std::vector<std::string>::const_iterator, std::vector<std::string>::const_iterator, const std::string&, unsigned);
+void printGrid(WINDOW* w, const std::string&, unsigned, unsigned, unsigned, unsigned);
+std::string boldWord(WINDOW* w, const std::string&, unsigned, unsigned);
+std::string unboldWord(WINDOW* w, const std::string&, unsigned, unsigned);
+void moveLeft(WINDOW*, std::pair<unsigned, unsigned>, unsigned);
+void moveRight(WINDOW*, std::pair<unsigned, unsigned>, unsigned);
+void moveUp(WINDOW*, std::pair<unsigned, unsigned>);
+void moveDown(WINDOW*, std::pair<unsigned, unsigned>);
+void moveClearPrintMove(WINDOW*, const std::string&, unsigned, unsigned);
+void movePrintMove(WINDOW*, const std::string&, unsigned, unsigned);
+void moveLineUp(WINDOW*, unsigned, unsigned, unsigned);
+unsigned countMatch(const std::string& , const std::string&);
+std::string& capitalised(std::string&);
+std::string int_to_hex(unsigned);
