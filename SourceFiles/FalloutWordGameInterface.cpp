@@ -8,6 +8,7 @@
 #include <Windows.h> //sleep
 #include "functions.h"
 
+//add -static to linker options to remove DLL dependencies (but pdcurses.dll is still needed of course).
 
 int main(){
 
