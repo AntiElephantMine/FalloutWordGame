@@ -2,7 +2,7 @@ A short C++ program of the terminal word game from the the video game Fallout.
 
 NOTES:
 
--Probably doesn't work on anything but Windows.
+-Probably doesn't work on anything but Windows 64-bit systems.
 -Make sure all the WordFiles and ConfigFiles folders are kept in the same directory as FalloutWordGame.exe
 -Inside config.txt I would probably only mess about with wordAmount, gridNo, maxSpeed, perRow or rolloutSpeed. The values for the other variables need to be within specific ranges for correct
 program behaviour.
