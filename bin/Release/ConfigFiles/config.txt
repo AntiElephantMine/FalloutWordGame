@@ -1,0 +1,15 @@
+#gridX = 12                  #Length of each grid
+#gridY = 16                  #Height of each grid
+#wordAmount=13               #the number of words to choose from
+#gridNo=2                    #the number of grids, don't set to zero
+#perRow=5                    #number of grids per row
+#gridPadding=8               #distance between the grids. Should be kept at size 8.
+#relX=8                      #the X position on screen for the leftmost grid, should be equal to gridPadding
+#relY=6                      #the Y position, should be no less than 6.
+#maxTries=4                  #attempts the user is allowed
+#rolloutSpeed=30             #control the speed at which text rolls out (Higher is slower). Should be equal to 30/gridNo.
+#screenX=65                  #length of the screen, best to leave this alone
+#screenY=25                  #height of the screen, best to leave this alone
+
+#Note: Too small grid/screen/padding sizes, or incorrect 
+#positions of the grid, can cause undefined behaviour.
