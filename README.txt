@@ -4,7 +4,7 @@ NOTES:
 
 -Probably doesn't work on anything but Windows.
 -Make sure all the WordFiles and ConfigFiles folders are kept in the same directory as FalloutWordGame.exe
--Inside config.txt I would probably only mess about with wordAmount, gridNo, maxSpeed, perRow or rolloutSpeed. The values for the other variables need to be with specific ranges for correct
+-Inside config.txt I would probably only mess about with wordAmount, gridNo, maxSpeed, perRow or rolloutSpeed. The values for the other variables need to be within specific ranges for correct
 program behaviour.
 -The game randomly selects 13 words and 1 answer, so it could be that in some rounds it is impossible to win. I have rarely found this to be the case. I'll probably sort this out one day. Probably.
 -The potential words were copied from the internet and are numerous (in the 100000s), so it could be that some contained words are offensive. Sorry about that.
