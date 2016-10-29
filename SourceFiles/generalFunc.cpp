@@ -86,7 +86,7 @@ std::string capitalise(const std::string& word){
 std::string int_to_hex(unsigned i){
     std::stringstream stream;
     stream << "0x" << std::uppercase << std::hex << i;
-    return std::move(stream.str());
+    return stream.str();
 }
 
 
