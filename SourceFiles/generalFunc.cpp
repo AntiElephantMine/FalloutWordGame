@@ -75,7 +75,7 @@ std::string& capitalise(std::string& word){
 
 }
 
-std::string capitalise(const std::string& word){
+std::string capitalise_copy(const std::string& word){
 
     std::string ret = word; //RVO conditions met, copy elision may occur.
     capitalise(ret); //passes to capitalise taking lvalue reference. NOTE: We do not return this directly otherwise we would remove RVO and copy elision.
